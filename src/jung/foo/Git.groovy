@@ -7,7 +7,7 @@ class Git implements Serializable{
     }
 
     String commitHash(){
-        return this.script.sh(script getLatestGitCommitHashCommand(), returnStdout: true).trim()
+        return this.script.sh(script: getLatestGitCommitHashCommand(), returnStdout: true).trim()
     }
 
     private static String getLatestGitCommitHashCommand(){
