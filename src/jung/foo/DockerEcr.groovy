@@ -1,6 +1,6 @@
 
 
-class DockerEcr implement Serializable{
+class DockerEcr implements Serializable{
 
     public final def script
 
