@@ -6,7 +6,6 @@ class MyCustomSteps extends DefaultJenkinsExecutor{
         super()
     }
     
-
     void execute(){
         this.sh("echo 'hi'")
     }
