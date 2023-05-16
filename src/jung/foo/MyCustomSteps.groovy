@@ -9,6 +9,6 @@ class MyCustomSteps implements Serializable{
     }
     
     void execute(){
-        this.jenkinsExecutor.sh("echo 'hia'")
+        jenkinsExecutor.sh("echo 'hia'")
     }
 }
