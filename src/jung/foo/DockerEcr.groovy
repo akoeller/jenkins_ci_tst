@@ -1,4 +1,4 @@
-
+package jung.foo
 
 class DockerEcr implements Serializable{
 
