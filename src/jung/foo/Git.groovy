@@ -2,6 +2,8 @@ package jung.foo
 
 class Git implements Serializable{
 
+    public final def script
+
     Git(def script){
         this.script = script
     }
