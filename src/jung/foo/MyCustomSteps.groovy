@@ -1,12 +1,14 @@
 package jung.foo
 
-class MyCustomSteps extends DefaultJenkinsExecutor{
+class MyCustomSteps implements Serializable{
 
-    MyCustomSteps(){
-        super();
+    private final JenkinsExecutor jenkinsExecutor
+
+    MyCustomSteps(JenkinsExecutor jenkinsExecutor){
+        this.jenkinsExecutor = jenkinsExecutor
     }
     
     void execute(){
-        this.sh("echo 'hi'")
+        this.jenkinsExecutor.sh("echo 'hia'")
     }
 }
