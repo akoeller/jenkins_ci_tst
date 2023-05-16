@@ -1,5 +1,6 @@
 import jung.foo.Constants
 import jung.foo.DockerEcr
+import jung.foo.Git
 
 
 def call(Map config = [:]) {
