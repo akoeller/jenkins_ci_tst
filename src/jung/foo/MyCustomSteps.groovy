@@ -3,7 +3,7 @@ package jung.foo
 class MyCustomSteps extends DefaultJenkinsExecutor{
 
     MyCustomSteps(){
-        super()
+        super();
     }
     
     void execute(){
